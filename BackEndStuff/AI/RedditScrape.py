@@ -66,8 +66,7 @@ def preprocess(text):
 
 reddit = praw.Reddit(client_id = "HcHVAaJGVQzH-Q", client_secret = "tl6k-jE3EzLnj2MOjej3agon4XMvCg", user_agent = "RedditWebScraper29183")
 
-sub_reddits = [reddit.subreddit("Cooking"), reddit.subreddit("cookingforbeginners"), reddit.subreddit("videogames"), reddit.subreddit("Games"),
- reddit.subreddit("books"), reddit.subreddit("travel"), reddit.subreddit("GYM")]
+sub_reddits = [reddit.subreddit('Fitness')]
  
 
 for subs in sub_reddits:
