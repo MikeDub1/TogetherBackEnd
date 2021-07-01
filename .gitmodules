@@ -1,0 +1,3 @@
+[submodule "bert-sklearn"]
+	path = bert-sklearn
+	url = https://github.com/charles9n/bert-sklearn
